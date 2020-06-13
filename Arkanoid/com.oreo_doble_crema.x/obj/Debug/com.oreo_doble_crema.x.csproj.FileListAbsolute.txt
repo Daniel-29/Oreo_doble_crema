@@ -1,8 +1,0 @@
-D:\Repositorios\Oreo_doble_crema\Arkanoid\com.oreo_doble_crema.x\bin\Debug\com.oreo_doble_crema.x.exe.config
-D:\Repositorios\Oreo_doble_crema\Arkanoid\com.oreo_doble_crema.x\bin\Debug\com.oreo_doble_crema.x.exe
-D:\Repositorios\Oreo_doble_crema\Arkanoid\com.oreo_doble_crema.x\bin\Debug\com.oreo_doble_crema.x.pdb
-D:\Repositorios\Oreo_doble_crema\Arkanoid\com.oreo_doble_crema.x\obj\Debug\com.oreo_doble_crema.x.csprojAssemblyReference.cache
-D:\Repositorios\Oreo_doble_crema\Arkanoid\com.oreo_doble_crema.x\obj\Debug\com.oreo_doble_crema.x.Properties.Resources.resources
-D:\Repositorios\Oreo_doble_crema\Arkanoid\com.oreo_doble_crema.x\obj\Debug\com.oreo_doble_crema.x.csproj.GenerateResource.cache
-D:\Repositorios\Oreo_doble_crema\Arkanoid\com.oreo_doble_crema.x\obj\Debug\com.oreo_doble_crema.x.exe
-D:\Repositorios\Oreo_doble_crema\Arkanoid\com.oreo_doble_crema.x\obj\Debug\com.oreo_doble_crema.x.pdb
