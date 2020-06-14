@@ -46,6 +46,11 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Core\Controller\Game.cs" />
+        <Compile Include="Core\Controller\Player.cs" />
+        <Compile Include="Core\Model\Database.cs" />
+        <Compile Include="Core\Model\Game.cs" />
+        <Compile Include="Core\Model\Player.cs" />
         <Compile Include="Home.cs">
             <SubType>Form</SubType>
         </Compile>
@@ -75,6 +80,10 @@
     </ItemGroup>
     <ItemGroup>
         <None Include="App.config" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Core\Gameplay\.gitkeep" />
+      <Content Include="Resources\.gitkeep" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
