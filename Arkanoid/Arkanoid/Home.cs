@@ -42,7 +42,7 @@ namespace Arkanoid
       ptb_back.Image = back;
       ptb_min.Image = min;
       ptb_max.Image = max;
-      ptb_close.Image = close;
+      ptb_close.Image = close; 
     }
 
     private void ptb_play_MouseEnter(object sender, EventArgs e)
