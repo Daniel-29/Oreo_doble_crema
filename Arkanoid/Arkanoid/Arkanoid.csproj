@@ -90,6 +90,9 @@
     <ItemGroup>
         <Compile Include="Core\Controller\Game.cs" />
         <Compile Include="Core\Controller\Player.cs" />
+        <Compile Include="Core\Gameplay\MapController.cs" />
+        <Compile Include="Core\Gameplay\Player.cs" />
+        <Compile Include="Core\Gameplay\Settings.cs" />
         <Compile Include="Core\Model\Database.cs" />
         <Compile Include="Core\Model\Game.cs" />
         <Compile Include="Core\Model\Player.cs" />
@@ -161,7 +164,6 @@
         <None Include="App.config" />
     </ItemGroup>
     <ItemGroup>
-      <Content Include="Core\Gameplay\.gitkeep" />
       <Content Include="Resources\Arkanoidlogo.png" />
       <Content Include="Resources\back.png" />
       <Content Include="Resources\backgroundgame.png" />
