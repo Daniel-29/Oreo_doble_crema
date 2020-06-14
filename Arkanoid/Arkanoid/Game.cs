@@ -4,7 +4,7 @@ namespace Arkanoid
 {
     public partial class Game : Form
     {
-        public Game()
+        public Game(string jugador)
         {
             InitializeComponent();
         }
