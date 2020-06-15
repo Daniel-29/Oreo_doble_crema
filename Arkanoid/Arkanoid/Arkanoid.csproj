@@ -4,7 +4,7 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{B41F76DF-6858-472C-97AC-CFD62298E43A}</ProjectGuid>
+        <ProjectGuid>{1D4E270B-56C1-4F1A-9621-BBC69D728A43}</ProjectGuid>
         <OutputType>WinExe</OutputType>
         <RootNamespace>Arkanoid</RootNamespace>
         <AssemblyName>Arkanoid</AssemblyName>
@@ -96,29 +96,17 @@
         <Compile Include="Core\Model\Database.cs" />
         <Compile Include="Core\Model\Game.cs" />
         <Compile Include="Core\Model\Player.cs" />
-        <Compile Include="Game.cs">
-          <SubType>Form</SubType>
-        </Compile>
-        <Compile Include="Game.Designer.cs">
-          <DependentUpon>Game.cs</DependentUpon>
-        </Compile>
-        <Compile Include="GameOver.cs">
-          <SubType>Form</SubType>
-        </Compile>
-        <Compile Include="GameOver.Designer.cs">
-          <DependentUpon>GameOver.cs</DependentUpon>
-        </Compile>
-        <Compile Include="GameSettings.cs">
-          <SubType>Form</SubType>
-        </Compile>
-        <Compile Include="GameSettings.Designer.cs">
-          <DependentUpon>GameSettings.cs</DependentUpon>
-        </Compile>
+        <Compile Include="Game.cs" />
+        <Compile Include="Game.Designer.cs" />
+        <Compile Include="GameOver.cs" />
+        <Compile Include="GameOver.Designer.cs" />
+        <Compile Include="GameSettings.cs" />
+        <Compile Include="GameSettings.Designer.cs" />
         <Compile Include="Home.cs">
-            <SubType>Form</SubType>
+          <SubType>Form</SubType>
         </Compile>
         <Compile Include="Home.Designer.cs">
-            <DependentUpon>Home.cs</DependentUpon>
+          <DependentUpon>Home.cs</DependentUpon>
         </Compile>
         <Compile Include="Player.cs">
           <SubType>UserControl</SubType>
@@ -134,8 +122,14 @@
         <Compile Include="Record.Designer.cs">
           <DependentUpon>Record.cs</DependentUpon>
         </Compile>
+        <EmbeddedResource Include="Game.resx" />
+        <EmbeddedResource Include="GameOver.resx" />
+        <EmbeddedResource Include="GameSettings.resx" />
         <EmbeddedResource Include="Home.resx">
           <DependentUpon>Home.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Player.resx">
+          <DependentUpon>Player.cs</DependentUpon>
         </EmbeddedResource>
         <EmbeddedResource Include="Properties\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>
@@ -183,9 +177,7 @@
       <Content Include="Resources\min.png" />
       <Content Include="Resources\nickname.png" />
       <Content Include="Resources\sprite.png" />
-      <Content Include="Resources\top10.png" />
       <Content Include="Resources\txt.png" />
-      <Content Include="Resources\txt_shadow.png" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

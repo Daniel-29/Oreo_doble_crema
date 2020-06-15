@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="760312e0-2c5b-4427-a4f4-76503886fa67" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/MapController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Model/Database.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameSettings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Model/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameSettings.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameOver.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameOver.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Player.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Controller/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Inicio.Designer.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Inicio.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/record.Designer.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Player.Designer.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Record.Designer.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Game/MapController.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Game/Settings.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Gameplay/MapController.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Gameplay/Player.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/GameSettings.Designer.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/GameSettings.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Properties/Resources.resx" />
+        <option value="$PROJECT_DIR$/Arkanoid/Home.Designer.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Program.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Home.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/GameOver.Designer.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Game.Designer.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Game.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Player.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Gameplay/Settings.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Database.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Record.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Controller/Player.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/GameOver.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Controller/Game.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Player.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bn5k9H2y9uYnyd7WUEIMXqfhrj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="do_not_show_solution_notification" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Arkanoid" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Arkanoid/Arkanoid.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="760312e0-2c5b-4427-a4f4-76503886fa67" name="Default Changelist" comment="" />
+      <created>1589255186024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589255186024</updated>
+      <workItem from="1589255228519" duration="3224000" />
+      <workItem from="1589836761007" duration="9852000" />
+      <workItem from="1589931931833" duration="8032000" />
+      <workItem from="1591813986068" duration="2483000" />
+      <workItem from="1591900886937" duration="9427000" />
+      <workItem from="1591996107835" duration="23000" />
+      <workItem from="1591996249130" duration="2658000" />
+      <workItem from="1591999100633" duration="13660000" />
+      <workItem from="1592019807162" duration="2238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1592022235767">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591909287935" />
+    <state width="1323" height="187" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592012871294" />
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1592022235767" />
+    <state width="757" height="235" key="GridCell.Tab.0.bottom/0.0.800.600@0.0.800.600" timestamp="1591909373297" />
+    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1592022235767">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1591909287935" />
+    <state width="1323" height="187" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1592012871294" />
+    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1592022235767" />
+    <state width="757" height="235" key="GridCell.Tab.0.center/0.0.800.600@0.0.800.600" timestamp="1591909373297" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1592022235767">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1591909287919" />
+    <state width="1323" height="187" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1592012871294" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1592022235767" />
+    <state width="757" height="235" key="GridCell.Tab.0.left/0.0.800.600@0.0.800.600" timestamp="1591909373297" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1592022235767">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1237" height="235" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591909287935" />
+    <state width="1323" height="187" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1592012871294" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1592022235767" />
+    <state width="757" height="235" key="GridCell.Tab.0.right/0.0.800.600@0.0.800.600" timestamp="1591909373297" />
+    <state x="435" y="86" key="RiderGenerateDialog" timestamp="1592010506930">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="435" y="86" key="RiderGenerateDialog/0.0.1366.738@0.0.1366.738" timestamp="1592010506930" />
+    <state x="510" y="128" key="RiderGenerateDialog/0.0.1600.900@0.0.1600.900" timestamp="1589845230333" />
+    <state x="184" y="14" key="SettingsEditor" timestamp="1592007973279">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1592007973279" />
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1589933042368">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1589933042368" />
+  </component>
+</project>
