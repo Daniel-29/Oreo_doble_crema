@@ -2,6 +2,7 @@
 using System.Deployment.Application;
 using System.Drawing;
 using System.Windows.Forms;
+using Arkanoid.Core.Gameplay;
 
 namespace Arkanoid
 {
@@ -26,6 +27,8 @@ namespace Arkanoid
     {
       if (!txt_nickname.Text.Equals(""))
       {
+        Settings.Hearts = Convert.ToInt32(n_vidas.Text);
+        Settings.HeartsTotal = Convert.ToInt32(n_vidas.Text);
         var game = new Game(txt_nickname.Text);
         game.Show();
         frm.Hide();
