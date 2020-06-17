@@ -196,7 +196,7 @@ namespace Arkanoid
                             }
                             else
                             {
-                                Settings.Score += 25;
+                                Settings.Score += map.map[i, j]*10;
                                 player.dirX =(player.dirX==1)?1:-1;
                                 map.map[i, j] = 0;
                             }

@@ -9,6 +9,6 @@
     public int dirX = 0;
     public int dirY = 0;
 
-    public int platformAnnimationFrame = 3; // max = 3;
+    public int AnnimationFrame = 3; // max = 3;
   }
 }
