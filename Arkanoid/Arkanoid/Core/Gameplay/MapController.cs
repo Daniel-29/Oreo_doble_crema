@@ -66,10 +66,10 @@ namespace Arkanoid.Core.Gameplay
             }
 
         }
-        public void DrawMap(Graphics g,Player player)
+        public void DrawMap(Graphics g,Player player)//566   381
         {
-            g.DrawImage(Settings.Sprites, new Rectangle(new Point(player.platformX, player.platformY), new Size(Settings.WidthPlayer1, Settings.HeightPlayer1)), 200, 320, 198, 50, GraphicsUnit.Pixel);
-            g.DrawImage(Settings.Sprites, new Rectangle(new Point(player.ballX,player.ballY), new Size(Settings.WidthBall1, Settings.HeightBall1)), 510, 320, 60, 60, GraphicsUnit.Pixel);
+            g.DrawImage(Settings.Sprites, new Rectangle(new Point(player.platformX, player.platformY), new Size(Settings.WidthPlayer1, Settings.HeightPlayer1)), 205, 320, 198, 50, GraphicsUnit.Pixel);
+            g.DrawImage(Settings.Sprites, new Rectangle(new Point(player.ballX,player.ballY), new Size(Settings.WidthBall1, Settings.HeightBall1)), 512+(player.AnnimationFrame*56), 327, 56, 62, GraphicsUnit.Pixel);
             for (int i = 0; i < Settings.MapHeight; i++)
             {
                 for (int j = 0; j < Settings.MapWidth; j++)

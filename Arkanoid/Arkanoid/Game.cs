@@ -63,6 +63,8 @@ namespace Arkanoid
         {
             if (Settings.Playing  && Settings.Hearts > 0 )
             {
+               
+                    
                 if(player.ballY+Settings.HeightBall1 >= Settings.MapHeight)
                 {
                     Settings.Hearts--;
@@ -85,6 +87,12 @@ namespace Arkanoid
                 {
                     player.ballX += player.dirX * Settings.SpeedBall;
                     player.ballY += player.dirY* Settings.SpeedBall;
+                    if (player.AnnimationFrame < 3)
+                        player.AnnimationFrame++;
+                    else
+                    {
+                        player.AnnimationFrame = 0;
+                    }
                 }
                 else
                 {

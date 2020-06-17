@@ -21,8 +21,8 @@ namespace Arkanoid.Core.Gameplay
         private static int WidthPlayer=200;
         private static int HeightPlayer=50;
         
-        private static int WidthBall=35;
-        private static int HeightBall=35;
+        private static int WidthBall=40;
+        private static int HeightBall=40;
         
         private static int WidthWallsH=100;
         private static int HeightWallsH=40;
@@ -35,7 +35,7 @@ namespace Arkanoid.Core.Gameplay
         
         private static bool playing=false;
         private static bool MousePlay=true;
-        public static Image Sprites = new Bitmap("../../Resources/spriteGameArkanoid.png");
+        public static Image Sprites = new Bitmap("../../Resources/sprite.png");
         static Settings()
         {
         }
