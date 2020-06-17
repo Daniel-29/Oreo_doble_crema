@@ -61,7 +61,8 @@ namespace Arkanoid
       this.tbly_core.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
       this.tbly_core.BackColor = System.Drawing.Color.Transparent;
       this.tbly_core.ColumnCount = 1;
-      this.tbly_core.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+      this.tbly_core.ColumnStyles.Add(
+        new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
       this.tbly_core.Controls.Add(this.tbly_menu, 0, 1);
       this.tbly_core.Controls.Add(this.tableLayoutPanel1, 0, 0);
       this.tbly_core.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -70,7 +71,7 @@ namespace Arkanoid
       this.tbly_core.RowCount = 2;
       this.tbly_core.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7F));
       this.tbly_core.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 93F));
-      this.tbly_core.Size = new System.Drawing.Size(1200, 720);
+      this.tbly_core.Size = new System.Drawing.Size(1400, 831);
       this.tbly_core.TabIndex = 0;
       // 
       // tbly_menu
@@ -85,7 +86,7 @@ namespace Arkanoid
       this.tbly_menu.Controls.Add(this.ptb_record, 1, 5);
       this.tbly_menu.Controls.Add(this.ptb_exit, 1, 7);
       this.tbly_menu.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.tbly_menu.Location = new System.Drawing.Point(3, 53);
+      this.tbly_menu.Location = new System.Drawing.Point(3, 61);
       this.tbly_menu.Name = "tbly_menu";
       this.tbly_menu.RowCount = 9;
       this.tbly_menu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
@@ -97,16 +98,16 @@ namespace Arkanoid
       this.tbly_menu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
       this.tbly_menu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
       this.tbly_menu.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-      this.tbly_menu.Size = new System.Drawing.Size(1194, 664);
+      this.tbly_menu.Size = new System.Drawing.Size(1394, 767);
       this.tbly_menu.TabIndex = 0;
       // 
       // ptb_titulo
       // 
       this.ptb_titulo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
       this.ptb_titulo.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.ptb_titulo.Location = new System.Drawing.Point(301, 36);
+      this.ptb_titulo.Location = new System.Drawing.Point(351, 41);
       this.ptb_titulo.Name = "ptb_titulo";
-      this.ptb_titulo.Size = new System.Drawing.Size(591, 160);
+      this.ptb_titulo.Size = new System.Drawing.Size(691, 185);
       this.ptb_titulo.TabIndex = 0;
       this.ptb_titulo.TabStop = false;
       // 
@@ -114,9 +115,9 @@ namespace Arkanoid
       // 
       this.ptb_play.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
       this.ptb_play.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.ptb_play.Location = new System.Drawing.Point(301, 235);
+      this.ptb_play.Location = new System.Drawing.Point(351, 270);
       this.ptb_play.Name = "ptb_play";
-      this.ptb_play.Size = new System.Drawing.Size(591, 93);
+      this.ptb_play.Size = new System.Drawing.Size(691, 109);
       this.ptb_play.TabIndex = 1;
       this.ptb_play.TabStop = false;
       this.ptb_play.Click += new System.EventHandler(this.ptb_play_Click);
@@ -127,9 +128,9 @@ namespace Arkanoid
       // 
       this.ptb_record.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
       this.ptb_record.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.ptb_record.Location = new System.Drawing.Point(301, 367);
+      this.ptb_record.Location = new System.Drawing.Point(351, 423);
       this.ptb_record.Name = "ptb_record";
-      this.ptb_record.Size = new System.Drawing.Size(591, 93);
+      this.ptb_record.Size = new System.Drawing.Size(691, 109);
       this.ptb_record.TabIndex = 2;
       this.ptb_record.TabStop = false;
       this.ptb_record.Click += new System.EventHandler(this.ptb_record_Click);
@@ -140,9 +141,9 @@ namespace Arkanoid
       // 
       this.ptb_exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
       this.ptb_exit.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.ptb_exit.Location = new System.Drawing.Point(301, 499);
+      this.ptb_exit.Location = new System.Drawing.Point(351, 576);
       this.ptb_exit.Name = "ptb_exit";
-      this.ptb_exit.Size = new System.Drawing.Size(591, 93);
+      this.ptb_exit.Size = new System.Drawing.Size(691, 109);
       this.ptb_exit.TabIndex = 3;
       this.ptb_exit.TabStop = false;
       this.ptb_exit.Click += new System.EventHandler(this.ptb_exit_Click);
@@ -152,11 +153,16 @@ namespace Arkanoid
       // tableLayoutPanel1
       // 
       this.tableLayoutPanel1.ColumnCount = 5;
-      this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4F));
-      this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 84F));
-      this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4F));
-      this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4F));
-      this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4F));
+      this.tableLayoutPanel1.ColumnStyles.Add(
+        new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4F));
+      this.tableLayoutPanel1.ColumnStyles.Add(
+        new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 84F));
+      this.tableLayoutPanel1.ColumnStyles.Add(
+        new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4F));
+      this.tableLayoutPanel1.ColumnStyles.Add(
+        new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4F));
+      this.tableLayoutPanel1.ColumnStyles.Add(
+        new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4F));
       this.tableLayoutPanel1.Controls.Add(this.ptb_back, 0, 0);
       this.tableLayoutPanel1.Controls.Add(this.ptb_max, 3, 0);
       this.tableLayoutPanel1.Controls.Add(this.ptb_min, 2, 0);
@@ -166,8 +172,9 @@ namespace Arkanoid
       this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
       this.tableLayoutPanel1.Name = "tableLayoutPanel1";
       this.tableLayoutPanel1.RowCount = 1;
-      this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-      this.tableLayoutPanel1.Size = new System.Drawing.Size(1194, 44);
+      this.tableLayoutPanel1.RowStyles.Add(
+        new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+      this.tableLayoutPanel1.Size = new System.Drawing.Size(1394, 52);
       this.tableLayoutPanel1.TabIndex = 1;
       // 
       // ptb_back
@@ -176,7 +183,7 @@ namespace Arkanoid
       this.ptb_back.Dock = System.Windows.Forms.DockStyle.Fill;
       this.ptb_back.Location = new System.Drawing.Point(3, 3);
       this.ptb_back.Name = "ptb_back";
-      this.ptb_back.Size = new System.Drawing.Size(41, 38);
+      this.ptb_back.Size = new System.Drawing.Size(49, 46);
       this.ptb_back.TabIndex = 0;
       this.ptb_back.TabStop = false;
       this.ptb_back.Click += new System.EventHandler(this.ptb_back_Click);
@@ -185,9 +192,9 @@ namespace Arkanoid
       // 
       this.ptb_max.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
       this.ptb_max.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.ptb_max.Location = new System.Drawing.Point(1099, 3);
+      this.ptb_max.Location = new System.Drawing.Point(1283, 3);
       this.ptb_max.Name = "ptb_max";
-      this.ptb_max.Size = new System.Drawing.Size(41, 38);
+      this.ptb_max.Size = new System.Drawing.Size(49, 46);
       this.ptb_max.TabIndex = 1;
       this.ptb_max.TabStop = false;
       this.ptb_max.Click += new System.EventHandler(this.ptb_max_Click);
@@ -196,9 +203,9 @@ namespace Arkanoid
       // 
       this.ptb_min.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
       this.ptb_min.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.ptb_min.Location = new System.Drawing.Point(1052, 3);
+      this.ptb_min.Location = new System.Drawing.Point(1228, 3);
       this.ptb_min.Name = "ptb_min";
-      this.ptb_min.Size = new System.Drawing.Size(41, 38);
+      this.ptb_min.Size = new System.Drawing.Size(49, 46);
       this.ptb_min.TabIndex = 2;
       this.ptb_min.TabStop = false;
       this.ptb_min.Click += new System.EventHandler(this.ptb_min_Click);
@@ -207,9 +214,9 @@ namespace Arkanoid
       // 
       this.ptb_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
       this.ptb_close.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.ptb_close.Location = new System.Drawing.Point(1146, 3);
+      this.ptb_close.Location = new System.Drawing.Point(1338, 3);
       this.ptb_close.Name = "ptb_close";
-      this.ptb_close.Size = new System.Drawing.Size(45, 38);
+      this.ptb_close.Size = new System.Drawing.Size(53, 46);
       this.ptb_close.TabIndex = 3;
       this.ptb_close.TabStop = false;
       this.ptb_close.Click += new System.EventHandler(this.ptb_close_Click);
@@ -217,21 +224,22 @@ namespace Arkanoid
       // label1
       // 
       this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.label1.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+      this.label1.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold,
+        System.Drawing.GraphicsUnit.Point, ((byte) (0)));
       this.label1.ForeColor = System.Drawing.Color.White;
-      this.label1.Location = new System.Drawing.Point(50, 0);
+      this.label1.Location = new System.Drawing.Point(58, 0);
       this.label1.Name = "label1";
-      this.label1.Size = new System.Drawing.Size(996, 44);
+      this.label1.Size = new System.Drawing.Size(1164, 52);
       this.label1.TabIndex = 4;
       this.label1.Text = "ARKANOID";
       this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
       // 
       // Home
       // 
-      this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+      this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-      this.ClientSize = new System.Drawing.Size(1200, 720);
+      this.ClientSize = new System.Drawing.Size(1400, 831);
       this.Controls.Add(this.tbly_core);
       this.DoubleBuffered = true;
       this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

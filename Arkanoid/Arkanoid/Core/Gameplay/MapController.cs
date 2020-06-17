@@ -77,22 +77,24 @@ namespace Arkanoid.Core.Gameplay
                     if (map[i, j] == 1)
                     {
                         g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ), new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 198, 0, 198, 98, GraphicsUnit.Pixel);//Verde
-                    }
-                    if (map[i, j] == 2)
-                    {
-                        g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ), new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 397, 100, 198, 98, GraphicsUnit.Pixel);//Rojo
-                    }
-                    if (map[i, j] == 3)
-                    {
-                        g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ),new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 0, 200, 198, 98, GraphicsUnit.Pixel);//Azul
-                    }
-                    if (map[i, j] == 4)
-                    {
-                        g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ), new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 0, 298, 198, 98, GraphicsUnit.Pixel);//Amarilo
-                    }
-                    if (map[i, j] == 5)
+                    }else if (map[i, j] == 2)
                     {
                         g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ), new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 595, 198, 198, 98, GraphicsUnit.Pixel);//Negro
+                    }else if (map[i, j] == 3)
+                    {  
+                        g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ), new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 0, 298, 198, 98, GraphicsUnit.Pixel);//Amarilo
+                    }else if (map[i, j] == 4)
+                    {
+                        g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ),new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 0, 200, 198, 98, GraphicsUnit.Pixel);//Azul
+                    }else if (map[i, j] == 5)
+                    {
+                        g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ), new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 397, 100, 198, 98, GraphicsUnit.Pixel);//Rojo
+                    }else if (map[i, j] == 6)
+                    {
+                        g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ),new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 397, 200, 198, 98, GraphicsUnit.Pixel);//Azul roto
+                    }else if (map[i, j] == 7)
+                    {
+                        g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ),new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 198, 200, 198, 98, GraphicsUnit.Pixel);//Rojo roto 
                     }
                    
                 }

@@ -190,9 +190,17 @@ namespace Arkanoid
                         }
                         if (hitbox(i, j) )
                         {
-                            Settings.Score += 25;
-                            player.dirX =(player.dirX==1)?1:-1;
-                            map.map[i, j] = 0;
+                            if (map.map[i, j] == 4 || map.map[i, j] == 5)
+                            {
+                                map.map[i, j] += 2;
+                            }
+                            else
+                            {
+                                Settings.Score += 25;
+                                player.dirX =(player.dirX==1)?1:-1;
+                                map.map[i, j] = 0;
+                            }
+                          
                         }
                     }
                 }

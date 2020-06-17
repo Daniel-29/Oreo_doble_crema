@@ -112,3 +112,40 @@ C:\Users\DELL USER\Downloads\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csproj.CoreCom
 C:\Users\DELL USER\Downloads\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csproj.CopyComplete
 C:\Users\DELL USER\Downloads\Arkanoid\Arkanoid\obj\Debug\Arkanoid.exe
 C:\Users\DELL USER\Downloads\Arkanoid\Arkanoid\obj\Debug\Arkanoid.pdb
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\Arkanoid.exe.config
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\Arkanoid.exe
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\Arkanoid.pdb
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\Npgsql.dll
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Buffers.dll
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Memory.dll
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Numerics.Vectors.dll
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Text.Encodings.Web.dll
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Text.Json.dll
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.ValueTuple.dll
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\Npgsql.pdb
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\Npgsql.xml
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Buffers.xml
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Memory.xml
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Numerics.Vectors.xml
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Text.Encodings.Web.xml
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Text.Json.xml
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\bin\Debug\System.ValueTuple.xml
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csprojAssemblyReference.cache
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\obj\Debug\Arkanoid.exe.config
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Game.resources
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\obj\Debug\Arkanoid.GameOver.resources
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\obj\Debug\Arkanoid.GameSettings.resources
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Home.resources
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Player.resources
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Properties.Resources.resources
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\obj\Debug\Arkanoid.Record.resources
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csproj.GenerateResource.cache
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\obj\Debug\Arkanoid.csproj.CopyComplete
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\obj\Debug\Arkanoid.exe
+D:\Repositorios\Oreo_doble_crema\Arkanoid\Arkanoid\obj\Debug\Arkanoid.pdb

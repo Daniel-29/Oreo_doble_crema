@@ -35,7 +35,7 @@ namespace Arkanoid.Core.Gameplay
         
         private static bool playing=false;
         private static bool MousePlay=true;
-        public static Image Sprites = new Bitmap("../../Resources/sprite.png");
+        public static Image Sprites = new Bitmap("../../Resources/spriteGameArkanoid.png");
         static Settings()
         {
         }
