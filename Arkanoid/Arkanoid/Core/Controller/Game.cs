@@ -4,6 +4,7 @@ namespace Arkanoid.Core.Controller
 {
   public class Game
   {
+    //Declarando variables
     private Model.Game new_game;
 
     private int id_game;
@@ -13,6 +14,7 @@ namespace Arkanoid.Core.Controller
     
     public Game()
     {
+      //Se llama a la clase Game del modelo
       this.new_game = new Model.Game();
     }
 
@@ -40,6 +42,7 @@ namespace Arkanoid.Core.Controller
       set => duration = value;
     }
 
+    //Metodo para insertar una partida utilizando el metodo creado en la clase Game dentro del modelo
     public bool startGame()
     {
       new_game.IdPlayer = id_player;
@@ -51,6 +54,7 @@ namespace Arkanoid.Core.Controller
       return false;
     }
 
+    //Metodo para modificar los resultados de la partida una vez que esta termine
     public bool endGame()
     {
       new_game.Score = score;
@@ -59,6 +63,7 @@ namespace Arkanoid.Core.Controller
       return new_game.updateGame();
     }
 
+    //Metodo para visualizar el Top de los jugadores
     public DataTable viewTopPlayers()
     {
       return new_game.selectTopPlayers();

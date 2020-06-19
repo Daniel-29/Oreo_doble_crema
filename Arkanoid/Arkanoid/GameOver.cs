@@ -11,6 +11,7 @@ namespace Arkanoid
         public GameOver(string nickname_current)
         {
             InitializeComponent();
+            //Se muestra la informacion de la partida que finalizo
             this.nickname_current = nickname_current;
             lbScore.Text = "Puntuacion: "+Settings.Score;
             lbTime.Text = "Tiempo: "+Settings.TiempoJuado1;
@@ -18,8 +19,10 @@ namespace Arkanoid
 
         private void Aceptar_Click(object sender, EventArgs e)
         {
+            //Se llama al metodo guardar para almacenar la informacion de la partida 
             if (guardar())
             {
+                //Si se guarda la informacion se muestra la pantalla de inicio y se esconde esta
                 var frm = new Home();
                 frm.Show();
                 Hide();

@@ -20,6 +20,7 @@ namespace Arkanoid
 
         private void Aceptar_Click(object sender, EventArgs e)
         {
+            //Se cambia el valor de la variable playing a "true" para indicar que esta activo el juego
             Settings.Playing = true;
             this.Close();
         }

@@ -2,6 +2,7 @@
 {
   public class Player
   {
+    //Declarando variables
     private Model.Player new_player;
 
     private int id_player;
@@ -10,6 +11,7 @@
     
     public Player()
     {
+      //Se llama a la clase Player del modelo
       new_player = new Model.Player();
     }
 
@@ -31,6 +33,7 @@
       set => lifes = value;
     }
 
+    //Metodo para insertar un jugador utilizando el metodo creado en la clase player dentro del modelo
     public bool createPlayer()
     {
       new_player.Nickname = this.nickname;
