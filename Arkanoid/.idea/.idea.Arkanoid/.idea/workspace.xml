@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="760312e0-2c5b-4427-a4f4-76503886fa67" name="Default Changelist" comment="" />
+    <list default="true" id="760312e0-2c5b-4427-a4f4-76503886fa67" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanoid/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanoid/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/bin/Debug/Arkanoid.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/bin/Debug/Arkanoid.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/bin/Debug/Arkanoid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/bin/Debug/Arkanoid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.Game.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.Game.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.GameOver.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.GameOver.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.GameSettings.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.GameSettings.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.Properties.Resources.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.Properties.Resources.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,30 +44,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/Settings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/MapController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/GameSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Player.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/GameSettings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/GameOver.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Model/Database.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Model/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/MapController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameSettings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Player.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameOver.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Model/Database.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -76,11 +95,11 @@
         <option value="$PROJECT_DIR$/Arkanoid/GameOver.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Controller/Game.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Player.cs" />
-        <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Gameplay/Player.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Gameplay/Settings.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Gameplay/MapController.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Game.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" />
       </list>
     </option>
   </component>
@@ -115,7 +134,7 @@
       <option name="PROJECT_KIND" value="Console" />
       <option name="PROJECT_TFM" value="" />
       <method v="2">
-        <option name="Build" enabled="true" />
+        <option name="Build" />
       </method>
     </configuration>
   </component>
@@ -145,11 +164,12 @@
       <workItem from="1592411347124" duration="116000" />
       <workItem from="1592411496568" duration="237000" />
       <workItem from="1592412037251" duration="1734000" />
+      <workItem from="1592865538211" duration="688000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -158,13 +178,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

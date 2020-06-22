@@ -92,7 +92,7 @@ namespace Arkanoid.Core.Model
       //Se abre la conexion
       cn.Open();
       //Consulta para seleccionar solo los 10 jugadores con el mejor puntaje
-      sql = "SELECT p.nickname, p.lifes, g.score, g.duration, g.game_date, to_char(g.game_time, 'HH12:MI:SS') FROM game g INNER JOIN player p ON p.id_player = g.id_player ORDER BY g.score ASC LIMIT 10;";
+      sql = "SELECT p.nickname, p.lifes, g.score, g.duration, g.game_date, to_char(g.game_time, 'HH12:MI:SS') AS game_time FROM game g INNER JOIN player p ON p.id_player = g.id_player ORDER BY g.score ASC LIMIT 10;";
       cmd = new NpgsqlCommand(sql, cn);
       dt = new DataTable();
       //Se ejecuta la consulta
