@@ -2,6 +2,7 @@
 using System.Deployment.Application;
 using System.Drawing;
 using System.Windows.Forms;
+using Arkanoid.Core.Controller;
 using Arkanoid.Core.Gameplay;
 
 namespace Arkanoid
@@ -28,20 +29,50 @@ namespace Arkanoid
 
     private void ptb_continuar_Click(object sender, EventArgs e)
     {
-      //Se valida que el nickname no se encuentre vacio
-      if (!txt_nickname.Text.Equals(""))
+      try
       {
-        //Se guarda el valor indicado de vidas que se eligieron en las variables
-        Settings.Hearts = Convert.ToInt32(n_vidas.Text);
-        Settings.HeartsTotal = Convert.ToInt32(n_vidas.Text);
-        //Se muestra la pantalla de juego y se esconde la de jugador
-        var game = new Game(txt_nickname.Text);
-        game.Show();
-        frm.Hide();
+        //Se valida que el nickname no se encuentre vacio
+        if (!txt_nickname.Text.Equals(""))
+        {
+          if (txt_nickname.Text.Trim().Length < 50)
+          {
+            if (Convert.ToInt32(n_vidas.Text) > 0)
+            {
+
+              //Se guarda el valor indicado de vidas que se eligieron en las variables
+              Settings.Hearts = Convert.ToInt32(n_vidas.Text);
+              Settings.HeartsTotal = Convert.ToInt32(n_vidas.Text);
+              //Se muestra la pantalla de juego y se esconde la de jugador
+              var game = new Game(txt_nickname.Text);
+              game.Show();
+              frm.Hide();
+            }
+            else
+            {
+              throw new LessThanOneValueException("Debe introducir una cantidad de vidas mayor a cero");
+            }
+          }
+          else
+          {
+            throw new ExceededMaxCharactersException("Ha introducido mas de 50 caracteres permitidos");
+          }
+        }
+        else
+        {
+          throw new EmptyNicknameException("Debe ingresar el Nickname");
+        }
       }
-      else
+      catch (EmptyNicknameException ex)
       {
-        MessageBox.Show("Debe ingresar el Nickname.", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        MessageBox.Show(ex.Message, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+      }
+      catch (ExceededMaxCharactersException ex)
+      {
+        MessageBox.Show(ex.Message, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+      }
+      catch (LessThanOneValueException ex)
+      {
+        MessageBox.Show(ex.Message, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
       }
     }
 
