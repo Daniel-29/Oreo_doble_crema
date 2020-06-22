@@ -92,7 +92,7 @@
         <Compile Include="Core\Controller\ExceededMaxCharactersException.cs" />
         <Compile Include="Core\Controller\Game.cs" />
         <Compile Include="Core\Controller\LessThanOneValueException.cs" />
-        <Compile Include="Core\Controller\NoRemainingLifesException.cs" />
+        <Compile Include="Core\Controller\NoLifesException.cs" />
         <Compile Include="Core\Controller\Player.cs" />
         <Compile Include="Core\Controller\WrongKeyException.cs" />
         <Compile Include="Core\Gameplay\MapController.cs" />

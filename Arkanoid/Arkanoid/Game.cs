@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using Arkanoid.Core.Controller;
 using Arkanoid.Core.Gameplay;
 
 namespace Arkanoid
@@ -61,52 +62,59 @@ namespace Arkanoid
 
         private void tmrUpdate_Tick(object sender, EventArgs e)
         {
-            if (Settings.Playing  && Settings.Hearts > 0 )
+            try
             {
-               
-                    
-                if(player.ballY+Settings.HeightBall1 >= Settings.MapHeight)
+                if (Settings.Playing && Settings.Hearts > 0)
                 {
-                    Settings.Hearts--;
-                    StartBall = false;
-                    Continue();
-                }
-                
-                ChoqueMuros();
-                ChoquePlayer();
-                ColicionesBallBlocks();
-                lbScore.Text="Score:"+Settings.Score;
-                if (Settings.Score >= Settings.ChangeScore1)
-                {
-                    map.AddLine();
-                    Settings.SpeedBall++;
-                    Settings.ChangeScore1 +=Settings.ChangeScore2;
-                }
-               
-                if (StartBall)
-                {
-                    player.ballX += player.dirX * Settings.SpeedBall;
-                    player.ballY += player.dirY* Settings.SpeedBall;
-                    if (player.AnnimationFrame < 3)
-                        player.AnnimationFrame++;
+
+
+                    if (player.ballY + Settings.HeightBall1 >= Settings.MapHeight)
+                    {
+                        Settings.Hearts--;
+                        StartBall = false;
+                        Continue();
+                    }
+
+                    ChoqueMuros();
+                    ChoquePlayer();
+                    ColicionesBallBlocks();
+                    lbScore.Text = "Score:" + Settings.Score;
+                    if (Settings.Score >= Settings.ChangeScore1)
+                    {
+                        map.AddLine();
+                        Settings.SpeedBall++;
+                        Settings.ChangeScore1 += Settings.ChangeScore2;
+                    }
+
+                    if (StartBall)
+                    {
+                        player.ballX += player.dirX * Settings.SpeedBall;
+                        player.ballY += player.dirY * Settings.SpeedBall;
+                        if (player.AnnimationFrame < 3)
+                            player.AnnimationFrame++;
+                        else
+                        {
+                            player.AnnimationFrame = 0;
+                        }
+                    }
                     else
                     {
-                        player.AnnimationFrame = 0;
+                        player.ballY = player.platformY - Settings.HeightBall1;
+                        player.ballX = player.platformX + Settings.WidthPlayer1 / 2 - Settings.WidthBall1 / 2;
                     }
+
+                    Invalidate();
                 }
                 else
                 {
-                    player.ballY = player.platformY-Settings.HeightBall1;
-                    player.ballX = player.platformX + Settings.WidthPlayer1/2 - Settings.WidthBall1 / 2;
+                    throw new NoLifesException("");
                 }
-                Invalidate();
-            }
-            else
+            }catch (NoLifesException ex)
             {
                 Settings.Playing = false;
                 tmrJuego.Stop();
                 tmrUpdate.Stop();
-                var gameOver =new GameOver(nickname_current);
+                var gameOver = new GameOver(nickname_current);
                 gameOver.Show();
                 this.Hide();
             }
