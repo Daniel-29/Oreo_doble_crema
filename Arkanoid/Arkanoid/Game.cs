@@ -7,6 +7,7 @@ namespace Arkanoid
 {
     public partial class Game : Form
     {
+        // En este form esta implemetada la jugabilidad 
         MapController map;
         Core.Gameplay.Player player;
         string nickname_current;
@@ -15,12 +16,14 @@ namespace Arkanoid
         private int seg=0, min=0, hor=0;
         public Game(string nickname_current)
         {
+            // Se carga el nick del jugar 
             InitializeComponent();
             this.nickname_current = nickname_current;
         }
 
         private void Game_Load(object sender, EventArgs e)
         {
+            // METODO AL CARGAR EL FORM "game" : Se cargar en setting el tamaño y se calcula los tamaños dinamicos de los sprite
             int screenWidth = Convert.ToInt32(Screen.PrimaryScreen.Bounds.Width.ToString());
             int screenHeight = Convert.ToInt32(Screen.PrimaryScreen.Bounds.Height.ToString());
             Settings.MapWidth = screenWidth;
@@ -35,6 +38,7 @@ namespace Arkanoid
 
         private void Game_MouseMove(object sender, MouseEventArgs e)
         {
+            // METODO AL MOVER EL MOUSE: Se usa el calcula las posiciones de la plataforma en base la posicion del mouse
             if (Settings.Playing && Settings.MousePlay1)
             {  
                 if (e.X < (Settings.MapWidth-Settings.WidthWallsV1)-(Settings.WidthPlayer1/2)  && e.X >(Settings.WidthPlayer1/2)+Settings.WidthWallsV1)
@@ -52,6 +56,7 @@ namespace Arkanoid
 
         private void Game_Paint(object sender, PaintEventArgs e)
         {
+            //METODO PAINT EN FORM "game": Se pintan los sprite en el canvas 
             if (Settings.Playing )
             { 
                 map.DrawArea(e.Graphics);
@@ -62,6 +67,7 @@ namespace Arkanoid
 
         private void tmrUpdate_Tick(object sender, EventArgs e)
         {
+            //EVENTO TICK DEL TIMER "tmrUpdate": se comprueban los coliciones con muros bloques , vidas acitvas y las finalizacion del juego 
             try
             {
                 if (Settings.Playing && Settings.Hearts > 0)
@@ -122,6 +128,7 @@ namespace Arkanoid
         
         public void Continue()
         {
+            // Metodo para resetear las configuraciones del juego al perder una vida
             tmrUpdate.Interval = 1;
             player.ballY = player.platformY-Settings.HeightBall1;
             player.ballX =  ( Settings.MapWidth-1)/2;
@@ -131,6 +138,7 @@ namespace Arkanoid
         }
         public void Init()
         {
+            //Metodo para inicializar las clases que controlan el juego
             map = new MapController();
             player = new Core.Gameplay.Player();
             tmrUpdate.Interval = 1;
@@ -145,6 +153,7 @@ namespace Arkanoid
         }
          private void ChoqueMuros()
         {
+            //Metodo para calcular los choques de la pelota con los muros
             if (player.ballY <= 50 + Settings.HeightWallsH1)
             {
                 player.dirX =(player.dirX==1)?1:-1;
@@ -159,6 +168,7 @@ namespace Arkanoid
         }
         private void ChoquePlayer()
         {
+            //Meotodo para calcular si coliciona la polota con la plataforma del jugador
             if (player.ballY + Settings.HeightBall1 >= player.platformY && player.ballX > player.platformX &&
                 player.ballX < player.platformX + Settings.WidthPlayer1)
             {
@@ -168,6 +178,7 @@ namespace Arkanoid
         }
         private bool hitbox(int pY,int pX)
         {
+            // Metodo que recibe la posicion en X y Y para calcular si coliciona con la pelota
             bool choque = false;
             if (player.ballY >= pY  && player.ballY <= pY+Settings.HeightBlocks1 && player.ballX >= pX && player.ballX <= pX + Settings.WidthBlocks1)
             {
@@ -192,6 +203,7 @@ namespace Arkanoid
         }
         private void ColicionesBallBlocks()
         {
+            //Metodo para recorer los mapa de bloques para que usar hitbox para comprobar coliciones 
             int py = (50 + Settings.RowsBlocks * Settings.HeightBlocks1 + Settings.HeightWallsH1) -
                      Settings.HeightBlocks1;
             for(int i =py; i >= 50; i-=Settings.HeightBlocks1)
@@ -225,6 +237,7 @@ namespace Arkanoid
 
         private void Game_KeyDown(object sender, KeyEventArgs e)
         {
+            //METODO DE PRESION DE TECLAS: Con este evento de controla si se pausa el juego o se inicia
             try
             {
                 if (e.KeyCode == Keys.Escape && Settings.Playing)
@@ -254,6 +267,7 @@ namespace Arkanoid
 
         private void tmrJuego_Tick(object sender, EventArgs e)
         {
+            // Evento del timer juego para actualizar el tiempo de juego
             seg++;    
             string segundos = seg.ToString(); 
             string minutos = min.ToString(); 

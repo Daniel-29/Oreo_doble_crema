@@ -2,6 +2,7 @@
 
 namespace Arkanoid.Core.Gameplay
 {
+    // En esta clase estan la configuracion del juego.
     public static class Settings
     {
         private static string TiempoJuado;

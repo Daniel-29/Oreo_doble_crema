@@ -1,5 +1,6 @@
 ﻿namespace Arkanoid.Core.Gameplay
 {
+  // En esta clase de se controla las posiciones del la plataforma del jugador , las posiciones de las pelota y las frame de animaciones
   public class Player
   {
     public int platformX;

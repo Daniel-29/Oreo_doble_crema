@@ -3,14 +3,17 @@ using System.Drawing;
 
 namespace Arkanoid.Core.Gameplay
 {
+    // Esta clase se encargar de controlar los sprites del juego
   public class MapController
   {
+      // se cargar las dimensiones del canvas que tendra el juego
     public int[,] map=new int[Settings.MapHeight,Settings.MapWidth];
         public MapController()
         {
         }
         public void AddLine()
         {
+            //Este metodo agrega un line de bloques que en el canvas
             Random r = new Random();
             int py = (50 + Settings.RowsBlocks * Settings.HeightBlocks1 + Settings.HeightWallsH1) -
                      Settings.HeightBlocks1;
@@ -34,6 +37,7 @@ namespace Arkanoid.Core.Gameplay
         }
         public void GeneratePlatforms()    
         {
+            // En este metodo se calculan las posiciones de los bloques
             Random r = new Random();
             int py = 50+Settings.HeightWallsH1;
            for(int i = 0; i < Settings.RowsBlocks; i++)
@@ -48,6 +52,7 @@ namespace Arkanoid.Core.Gameplay
         }
         public void DrawWalls(Graphics g)
         {
+            //En este metodo de calcular las posciones de los muros de horizontales y verticales
             int auxX=Settings.WidthWallsV1, auxY=50;
             for (int k =1; k <= Settings.Hearts; k++)
             {    
@@ -66,8 +71,9 @@ namespace Arkanoid.Core.Gameplay
             }
 
         }
-        public void DrawMap(Graphics g,Player player)//566   381
+        public void DrawMap(Graphics g,Player player)
         {
+            // En este metodo se asigna los spite al dirferente posicones del mapa
             g.DrawImage(Settings.Sprites, new Rectangle(new Point(player.platformX, player.platformY), new Size(Settings.WidthPlayer1, Settings.HeightPlayer1)), 205, 320, 198, 50, GraphicsUnit.Pixel);
             g.DrawImage(Settings.Sprites, new Rectangle(new Point(player.ballX,player.ballY), new Size(Settings.WidthBall1, Settings.HeightBall1)), 512+(player.AnnimationFrame*56), 327, 56, 62, GraphicsUnit.Pixel);
             for (int i = 0; i < Settings.MapHeight; i++)
@@ -103,6 +109,7 @@ namespace Arkanoid.Core.Gameplay
 
         public void DrawArea(Graphics g)
         {
+            // En este metodo de crear el canvas
             g.DrawRectangle(Pens.Black, new Rectangle(0, 50, Settings.MapWidth , Settings.MapHeight ));
         }
   }
