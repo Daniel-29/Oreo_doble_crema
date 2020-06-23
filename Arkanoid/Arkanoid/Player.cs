@@ -38,14 +38,21 @@ namespace Arkanoid
           {
             if (Convert.ToInt32(n_vidas.Text) > 0)
             {
+              if (Convert.ToInt32(n_vidas.Text) < 11)
+              {
 
-              //Se guarda el valor indicado de vidas que se eligieron en las variables
-              Settings.Hearts = Convert.ToInt32(n_vidas.Text);
-              Settings.HeartsTotal = Convert.ToInt32(n_vidas.Text);
-              //Se muestra la pantalla de juego y se esconde la de jugador
-              var game = new Game(txt_nickname.Text);
-              game.Show();
-              frm.Hide();
+                //Se guarda el valor indicado de vidas que se eligieron en las variables
+                Settings.Hearts = Convert.ToInt32(n_vidas.Text);
+                Settings.HeartsTotal = Convert.ToInt32(n_vidas.Text);
+                //Se muestra la pantalla de juego y se esconde la de jugador
+                var game = new Game(txt_nickname.Text);
+                game.Show();
+                frm.Hide();
+              }
+              else
+              {
+                throw new ExceededMaxLifesException("Ha introducido mas de 10 vidas");
+              }
             }
             else
             {
@@ -71,6 +78,10 @@ namespace Arkanoid
         MessageBox.Show(ex.Message, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
       }
       catch (LessThanOneValueException ex)
+      {
+        MessageBox.Show(ex.Message, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+      }
+      catch (ExceededMaxLifesException ex)
       {
         MessageBox.Show(ex.Message, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
       }

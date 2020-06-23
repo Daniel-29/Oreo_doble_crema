@@ -225,19 +225,30 @@ namespace Arkanoid
 
         private void Game_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Escape && Settings.Playing)
+            try
             {
-                Settings.Playing = false;
-                tmrUpdate.Stop();
-                tmrJuego.Stop();
-                GameSettings settings =new GameSettings(false);
-                settings.ShowDialog();
-                tmrUpdate.Start();
-                tmrJuego.Start();
-            }else if(e.KeyCode == Keys.Space && Settings.Playing)
+                if (e.KeyCode == Keys.Escape && Settings.Playing)
+                {
+                    Settings.Playing = false;
+                    tmrUpdate.Stop();
+                    tmrJuego.Stop();
+                    GameSettings settings = new GameSettings(false);
+                    settings.ShowDialog();
+                    tmrUpdate.Start();
+                    tmrJuego.Start();
+                }
+                else if (e.KeyCode == Keys.Space && Settings.Playing)
+                {
+                    StartBall = true;
+                    tmrJuego.Start();
+                }
+                else
+                {
+                    throw new WrongKeyException("Presiona Space para jugar o Escape para pausar el juego");
+                }
+            } catch (WrongKeyException ex)
             {
-                StartBall = true;
-                tmrJuego.Start();
+                MessageBox.Show(ex.Message, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

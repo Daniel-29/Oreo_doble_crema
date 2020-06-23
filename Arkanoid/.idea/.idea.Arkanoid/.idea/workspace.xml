@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="760312e0-2c5b-4427-a4f4-76503886fa67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanoid/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arkanoid/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arkanoid/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/Arkanoid.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/Arkanoid.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/Core/Model/Database.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/Core/Model/Database.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arkanoid/Record.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/Record.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arkanoid/bin/Debug/Arkanoid.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/bin/Debug/Arkanoid.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arkanoid/bin/Debug/Arkanoid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/bin/Debug/Arkanoid.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.Game.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.Game.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.GameOver.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.GameOver.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.GameSettings.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.GameSettings.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.Properties.Resources.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.Properties.Resources.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/obj/Debug/Arkanoid.csproj.GenerateResource.cache" afterDir="false" />
@@ -44,30 +58,35 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Model/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/GameSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/MapController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/ExceededMaxLifesException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/LessThanOneValueException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/NoLifesException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arkanoid/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/GameSettings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Player.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/MapController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Model/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arkanoid/GameOver.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Model/Database.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Player.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameSettings.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -88,8 +107,6 @@
         <option value="$PROJECT_DIR$/Arkanoid/Home.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/GameOver.Designer.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Game.Designer.cs" />
-        <option value="$PROJECT_DIR$/Arkanoid/Player.cs" />
-        <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Database.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Record.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Controller/Player.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/GameOver.cs" />
@@ -98,13 +115,18 @@
         <option value="$PROJECT_DIR$/Arkanoid/Core/Gameplay/Player.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Gameplay/Settings.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Gameplay/MapController.cs" />
-        <option value="$PROJECT_DIR$/Arkanoid/Game.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Game.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Database.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Controller/ExceededMaxLifesException.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Player.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1bn5k9H2y9uYnyd7WUEIMXqfhrj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -189,38 +211,42 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1592413772238">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="28" key="GridCell.Tab.0.bottom" timestamp="1592872435656">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1592354811846" />
     <state width="1237" height="235" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591909287935" />
+    <state width="1323" height="28" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592872435656" />
     <state width="1323" height="187" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592012871294" />
     <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1592022235767" />
     <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1592413772238" />
     <state width="757" height="235" key="GridCell.Tab.0.bottom/0.0.800.600@0.0.800.600" timestamp="1591909373297" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1592413772238">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="28" key="GridCell.Tab.0.center" timestamp="1592872435653">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1592354811845" />
     <state width="1237" height="235" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1591909287935" />
+    <state width="1323" height="28" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592872435653" />
     <state width="1323" height="187" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1592012871294" />
     <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1592022235767" />
     <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1592413772238" />
     <state width="757" height="235" key="GridCell.Tab.0.center/0.0.800.600@0.0.800.600" timestamp="1591909373297" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1592413772238">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="28" key="GridCell.Tab.0.left" timestamp="1592872435653">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1592354811845" />
     <state width="1237" height="235" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1591909287919" />
+    <state width="1323" height="28" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592872435653" />
     <state width="1323" height="187" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1592012871294" />
     <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1592022235767" />
     <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1592413772238" />
     <state width="757" height="235" key="GridCell.Tab.0.left/0.0.800.600@0.0.800.600" timestamp="1591909373297" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1592413772238">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1323" height="28" key="GridCell.Tab.0.right" timestamp="1592872435653">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1592354811845" />
     <state width="1237" height="235" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591909287935" />
+    <state width="1323" height="28" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592872435653" />
     <state width="1323" height="187" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1592012871294" />
     <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1592022235767" />
     <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592413772238" />

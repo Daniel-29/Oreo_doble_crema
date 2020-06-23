@@ -90,6 +90,7 @@
     <ItemGroup>
         <Compile Include="Core\Controller\EmptyNicknameException.cs" />
         <Compile Include="Core\Controller\ExceededMaxCharactersException.cs" />
+        <Compile Include="Core\Controller\ExceededMaxLifesException.cs" />
         <Compile Include="Core\Controller\Game.cs" />
         <Compile Include="Core\Controller\LessThanOneValueException.cs" />
         <Compile Include="Core\Controller\NoLifesException.cs" />
