@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\estef\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\estef\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_Arkanoid.1093198620.00" t="ExcludeRecursive" />
+    <e p="C:\Users\estef\Desktop\POO\Arkanoid" t="IncludeFlat">
+      <e p="Arkanoid" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="Arkanoid.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Core" t="Include">
+          <e p="Controller" t="Include">
+            <e p="EmptyNicknameException.cs" t="Include" />
+            <e p="ExceededMaxCharactersException.cs" t="Include" />
+            <e p="ExceededMaxLifesException.cs" t="Include" />
+            <e p="Game.cs" t="Include" />
+            <e p="LessThanOneValueException.cs" t="Include" />
+            <e p="NoLifesException.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="WrongKeyException.cs" t="Include" />
+          </e>
+          <e p="Gameplay" t="Include">
+            <e p="MapController.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="Settings.cs" t="Include" />
+          </e>
+          <e p="Model" t="Include">
+            <e p="Database.cs" t="Include" />
+            <e p="Game.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Game.cs" t="Include" />
+        <e p="Game.Designer.cs" t="Include" />
+        <e p="Game.resx" t="Include" />
+        <e p="GameOver.cs" t="Include" />
+        <e p="GameOver.Designer.cs" t="Include" />
+        <e p="GameOver.resx" t="Include" />
+        <e p="GameSettings.cs" t="Include" />
+        <e p="GameSettings.Designer.cs" t="Include" />
+        <e p="GameSettings.resx" t="Include" />
+        <e p="Home.cs" t="Include" />
+        <e p="Home.Designer.cs" t="Include" />
+        <e p="Home.resx" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Player.cs" t="Include" />
+        <e p="Player.Designer.cs" t="Include" />
+        <e p="Player.resx" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="record.cs" t="Include" />
+        <e p="record.Designer.cs" t="Include" />
+        <e p="Record.resx" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="Arkanoidlogo.png" t="Include" />
+          <e p="back.png" t="Include" />
+          <e p="backgroundgame.png" t="Include" />
+          <e p="btn_continuar.png" t="Include" />
+          <e p="btn_continuar_hover.png" t="Include" />
+          <e p="btn_jugar.png" t="Include" />
+          <e p="btn_jugar_hover.png" t="Include" />
+          <e p="btn_puntaje.png" t="Include" />
+          <e p="btn_puntaje_hover.png" t="Include" />
+          <e p="btn_salir.png" t="Include" />
+          <e p="btn_salir_hover.png" t="Include" />
+          <e p="close.png" t="Include" />
+          <e p="lbl_usuario.png" t="Include" />
+          <e p="max.png" t="Include" />
+          <e p="menu_blank.png" t="Include" />
+          <e p="menu_principal.png" t="Include" />
+          <e p="min.png" t="Include" />
+          <e p="nickname.png" t="Include" />
+          <e p="sprite.png" t="Include" />
+          <e p="txt.png" t="Include" />
+        </e>
+      </e>
+      <e p="Arkanoid.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
