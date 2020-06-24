@@ -102,9 +102,9 @@
         <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Player.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Controller/Game.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Controller/Player.cs" />
-        <option value="$PROJECT_DIR$/Arkanoid/GameOver.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Player.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/GameOver.cs" />
       </list>
     </option>
   </component>
@@ -172,7 +172,7 @@
       <workItem from="1592411496568" duration="237000" />
       <workItem from="1592412037251" duration="1734000" />
       <workItem from="1592865538211" duration="688000" />
-      <workItem from="1592968794465" duration="4029000" />
+      <workItem from="1592968794465" duration="4356000" />
     </task>
     <servers />
   </component>
