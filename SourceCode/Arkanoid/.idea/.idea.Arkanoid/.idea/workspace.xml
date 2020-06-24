@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="760312e0-2c5b-4427-a4f4-76503886fa67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" afterDir="false" />
-    </list>
+    <list default="true" id="760312e0-2c5b-4427-a4f4-76503886fa67" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,24 +40,9 @@
     <select />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Arkanoid/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.resx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/ExceededMaxLifesException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/LessThanOneValueException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/NoLifesException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/Settings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Arkanoid/App.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/MapController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arkanoid/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/Player.cs" root0="FORCE_HIGHLIGHTING" />
@@ -74,6 +57,21 @@
     <setting file="file://$PROJECT_DIR$/Arkanoid/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arkanoid/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Arkanoid/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Home.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/ExceededMaxLifesException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/NoLifesException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/LessThanOneValueException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Record.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Controller/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/Core/Gameplay/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arkanoid/App.config" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,18 +93,18 @@
         <option value="$PROJECT_DIR$/Arkanoid/GameOver.Designer.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Game.Designer.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Record.cs" />
-        <option value="$PROJECT_DIR$/Arkanoid/Core/Controller/Player.cs" />
-        <option value="$PROJECT_DIR$/Arkanoid/GameOver.cs" />
-        <option value="$PROJECT_DIR$/Arkanoid/Core/Controller/Game.cs" />
-        <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Player.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Gameplay/Player.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Gameplay/Settings.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Gameplay/MapController.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Game.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Database.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Controller/ExceededMaxLifesException.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Player.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Controller/Player.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Player.cs" />
         <option value="$PROJECT_DIR$/Arkanoid/Core/Model/Game.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/GameOver.cs" />
+        <option value="$PROJECT_DIR$/Arkanoid/Core/Controller/Game.cs" />
       </list>
     </option>
   </component>
@@ -174,6 +172,7 @@
       <workItem from="1592411496568" duration="237000" />
       <workItem from="1592412037251" duration="1734000" />
       <workItem from="1592865538211" duration="688000" />
+      <workItem from="1592968794465" duration="2073000" />
     </task>
     <servers />
   </component>
@@ -315,9 +314,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592411459412" />
-    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1589933042368">
-      <screen x="0" y="0" width="1600" height="900" />
+    <state x="395" y="156" width="672" height="556" key="search.everywhere.popup" timestamp="1592969397864">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="395" y="156" width="672" height="556" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1592969397864" />
     <state x="463" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1589933042368" />
   </component>
 </project>

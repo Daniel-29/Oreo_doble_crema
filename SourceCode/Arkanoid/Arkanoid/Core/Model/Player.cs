@@ -28,16 +28,16 @@ namespace Arkanoid.Core.Model
       set => id_player = value;
     }
 
-    public string Nickname
-    {
-      get => nickname;
-      set => nickname = value;
-    }
-
     public int Lifes
     {
       get => lifes;
       set => lifes = value;
+    }
+
+    public string Nickname
+    {
+      get => nickname;
+      set => nickname = value;
     }
 
     //Metodo para insertar un jugador en la base de datos
@@ -58,6 +58,29 @@ namespace Arkanoid.Core.Model
       //Llamando al metodo selectLastId
       selectLastId();
       return result == 1;
+    }
+    
+    //Metodo para verificar si existe el jugador y devolver su puntaje anterior
+    public int selectLastScore()
+    {
+      var score = 0;
+      //Se abre la conexion
+      cn.Open();
+      //Consulta que selecciona el ultimo id que se ha insertado en la base de datos
+      sql = "SELECT p.id_player, g.score FROM game g INNER JOIN player p ON p.id_player = g.id_player WHERE p.nickname = @nickname";
+      cmd = new NpgsqlCommand(sql, cn);
+      cmd.Parameters.AddWithValue("nickname", nickname);
+      //Se ejecuta la consulta
+      dr = cmd.ExecuteReader();
+      while (dr.Read())
+      {
+        //Se agrega el valor del id a la variable
+        id_player = dr.GetInt32(0);
+        score = dr.GetInt32(1);
+      }
+      //Se cierra la conexion
+      cn.Close();
+      return score;
     }
 
     //Metodo para seleccionar el ultimo id insertado

@@ -45,5 +45,17 @@
       }
       return false;
     }
+    
+    //Metodo para verificar si un usuario ya existe en la base
+    public int verifyPlayer()
+    {
+      new_player.Nickname = this.nickname;
+      var score = new_player.selectLastScore();
+      if (score > 0)
+      {
+        this.id_player = new_player.IdPlayer;
+      }
+      return score;
+    }
   }
 }

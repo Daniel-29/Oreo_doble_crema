@@ -37,15 +37,32 @@ namespace Arkanoid
             var player_current = new Core.Controller.Player();
             player_current.Nickname = nickname_current;
             player_current.Lifes = Settings.HeartsTotal;
-            if (player_current.createPlayer())
+            var score_old = player_current.verifyPlayer();
+            if (score_old < Settings.Score)
             {
-                var game = new Core.Controller.Game();
-                game.IdPlayer = player_current.IdPlayer;
-                if (game.startGame())
+                MessageBox.Show($"Ups {player_current.Nickname}, tu puntaje fue menor al de la vez anterior, seguiremos guardnado el mayor puntaje!");
+            }
+            else
+            {
+                if (player_current.IdPlayer != null)
                 {
+                    var game = new Core.Controller.Game();
+                    game.IdPlayer = player_current.IdPlayer;
                     game.Duration = Settings.TiempoJuado1;
                     game.Score = Settings.Score;
                     return game.endGame();
+                }
+                else
+                {
+                    player_current.createPlayer();
+                    var game = new Core.Controller.Game();
+                    game.IdPlayer = player_current.IdPlayer;
+                    if (game.startGame())
+                    {
+                        game.Duration = Settings.TiempoJuado1;
+                        game.Score = Settings.Score;
+                        return game.endGame();
+                    }
                 }
             }
             return false;

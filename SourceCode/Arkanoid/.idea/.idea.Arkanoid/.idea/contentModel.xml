@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\estef\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\estef\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_Arkanoid.1093198620.00" t="ExcludeRecursive" />
-    <e p="C:\Users\estef\Desktop\POO\Arkanoid" t="IncludeFlat">
+    <e p="C:\Users\DELL USER\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\DELL USER\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_Arkanoid.2017668847.00" t="ExcludeRecursive" />
+    <e p="C:\Users\DELL USER\Documents\GitHub\Oreo_doble_crema_Arkanoid\SourceCode\Arkanoid" t="IncludeFlat">
       <e p="Arkanoid" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="Arkanoid.csproj" t="IncludeRecursive" />

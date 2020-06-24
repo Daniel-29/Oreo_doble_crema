@@ -40,7 +40,14 @@ namespace Arkanoid
             {
               if (Convert.ToInt32(n_vidas.Text) < 11)
               {
-
+                //se verifica si el jugador existe
+                var player_old = new Core.Controller.Player();
+                player_old.Nickname = txt_nickname.Text;
+                var score_old = player_old.verifyPlayer();
+                if (player_old.IdPlayer != null)
+                {
+                  MessageBox.Show($"Bienvenido de nuevo {player_old.Nickname}, tu puntaje anterior fue: {score_old}, Superalo en esta partida! se guardara el mayor puntaje");
+                }
                 //Se guarda el valor indicado de vidas que se eligieron en las variables
                 Settings.Hearts = Convert.ToInt32(n_vidas.Text);
                 Settings.HeartsTotal = Convert.ToInt32(n_vidas.Text);

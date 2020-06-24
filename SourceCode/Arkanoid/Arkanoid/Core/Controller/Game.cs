@@ -59,7 +59,7 @@ namespace Arkanoid.Core.Controller
     {
       new_game.Score = score;
       new_game.Duration = duration;
-      new_game.IdGame = IdGame;
+      new_game.IdPlayer = id_player;
       return new_game.updateGame();
     }
 
