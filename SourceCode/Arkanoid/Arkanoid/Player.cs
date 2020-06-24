@@ -44,7 +44,7 @@ namespace Arkanoid
                 var player_old = new Core.Controller.Player();
                 player_old.Nickname = txt_nickname.Text;
                 var score_old = player_old.verifyPlayer();
-                if (player_old.IdPlayer != null)
+                if (player_old.IdPlayer != 0)
                 {
                   MessageBox.Show($"Bienvenido de nuevo {player_old.Nickname}, tu puntaje anterior fue: {score_old}, Superalo en esta partida! se guardara el mayor puntaje");
                 }

@@ -38,13 +38,13 @@ namespace Arkanoid
             player_current.Nickname = nickname_current;
             player_current.Lifes = Settings.HeartsTotal;
             var score_old = player_current.verifyPlayer();
-            if (score_old < Settings.Score)
+            if (player_current.IdPlayer != 0 && score_old > Settings.Score)
             {
                 MessageBox.Show($"Ups {player_current.Nickname}, tu puntaje fue menor al de la vez anterior, seguiremos guardnado el mayor puntaje!");
             }
             else
             {
-                if (player_current.IdPlayer != null)
+                if (player_current.IdPlayer != 0)
                 {
                     var game = new Core.Controller.Game();
                     game.IdPlayer = player_current.IdPlayer;

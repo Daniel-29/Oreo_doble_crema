@@ -73,7 +73,7 @@ namespace Arkanoid.Core.Model
       //Se abre la conexion
       cn.Open();
       //Consulta para modificar puntaje y duracion de una partida
-      sql = "UPDATE game SET score = @score, duration = @duration, g.game_time = CURRENT_TIME, g.game_date = CURRENT_DATE WHERE id_player = @id_player;";
+      sql = "UPDATE game SET score = @score, duration = @duration, game_time = CURRENT_TIME, game_date = CURRENT_DATE WHERE id_player = @id_player;";
       cmd = new NpgsqlCommand(sql, cn);
       cmd.Parameters.AddWithValue("score", score);
       cmd.Parameters.AddWithValue("duration", duration);

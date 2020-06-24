@@ -51,7 +51,8 @@
     {
       new_player.Nickname = this.nickname;
       var score = new_player.selectLastScore();
-      if (score > 0)
+      this.id_player = new_player.IdPlayer;
+      if (id_player != null)
       {
         this.id_player = new_player.IdPlayer;
       }
