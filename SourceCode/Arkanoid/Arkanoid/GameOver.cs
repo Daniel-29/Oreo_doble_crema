@@ -41,6 +41,7 @@ namespace Arkanoid
             if (score_old > Settings.Score)
             {
                 MessageBox.Show($"Ups {player_current.Nickname}, tu puntaje fue menor al de la vez anterior, seguiremos guardnado el mayor puntaje!");
+                return true;
             }
             else
             {
