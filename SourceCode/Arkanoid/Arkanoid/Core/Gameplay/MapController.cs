@@ -91,7 +91,7 @@ namespace Arkanoid.Core.Gameplay
                         g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ), new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 0, 298, 198, 98, GraphicsUnit.Pixel);//Amarilo
                     }else if (map[i, j] == 4)
                     {
-                        g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ),new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 0, 200, 198, 98, GraphicsUnit.Pixel);//Azul
+                        g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ),new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 0, 200, 197, 98, GraphicsUnit.Pixel);//Azul
                     }else if (map[i, j] == 5)
                     {
                         g.DrawImage(Settings.Sprites, new Rectangle(new Point(j , i ), new Size( Settings.WidthBlocks1, Settings.HeightBlocks1)), 397, 100, 198, 98, GraphicsUnit.Pixel);//Rojo
