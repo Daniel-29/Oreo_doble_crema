@@ -51,6 +51,7 @@ namespace Arkanoid
                 //Se guarda el valor indicado de vidas que se eligieron en las variables
                 Settings.Hearts = Convert.ToInt32(n_vidas.Text);
                 Settings.HeartsTotal = Convert.ToInt32(n_vidas.Text);
+                Settings.Score = 0;
                 //Se muestra la pantalla de juego y se esconde la de jugador
                 var game = new Game(txt_nickname.Text);
                 game.Show();
